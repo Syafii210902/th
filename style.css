@@ -125,14 +125,14 @@ body {
 .tooltip {}
 
 .tooltip .tooltiptext {
-    font-size: 155%;
+    font-size: 250%;
     font-family: sans-serif;
     display: inline-block;
-    border-bottom: 10px rgba(255, 255, 255, 0.2);
+    border-bottom: 50px rgba(255, 255, 255, 0.2);
     ;
     visibility: hidden;
-    width: 5%;
-    height: 5%;
+    width: 70px;
+    height: 50px;
     background-color: rgba(255, 255, 255, 0.2);
     ;
     color: #fff;
