@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jam</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+        window.onload = function() {
+            jam();
+        }
+
+        function jam() {
+            var a = document.getElementById("jam"),
+                d = new Date(),
+                h, m, s;
+            h = d.getHours();
+            m = set(d.getMinutes());
+            s = set(d.getSeconds());
+
+            a.innerHTML = h + ":" + m + ":" + s;
+            setTimeout("jam()", 1000);
+        }
+
+        function set(a) {
+            a = a < 10 ? '0' + a : a;
+            return a;
+        }
+    </script>
+</head>
+
+<body>
+    <audio id="myaudio" src="kenanganmanis.mp3" loop="true">
+        <script type="text/javascript">
+            setTimeout(function(){
+                document.getElementById("myaudio").play();
+                console.log("already played");
+            }, 5000)
+        </script>
+    </audio>
+    </div>
+    <div class="banner-text">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="animation-area">
+        <ul class="box-area">
+            <h2 id="jam"></h2>
+            <div class="tooltip">
+                <h1>Selamat Malam</h1>
+                <span class="tooltiptext"><3</span>
+            </div>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</body>
+
+</html>
