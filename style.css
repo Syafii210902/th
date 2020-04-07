@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway';
+}
+
+.banner-text {
+    width: 100%;
+    position: absolute;
+}
+
+.banner-text ul {
+    height: 50px;
+    float: right;
+}
+
+.banner-text ul li {
+    display: inline-block;
+    padding: 40px 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+}
+
+.box-area h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 80px;
+    margin-top: 10%;
+    font-weight: 500;
+    font-family: monospace;
+}
+
+.box-area h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    margin-top: 1.5%;
+    font-weight: 500;
+}
+
+.animation-area {
+    width: 100%;
+    height: 100vh;
+    animation: animasi 30s ease infinite;
+}
+
+@keyframes animasi {
+    0% {
+        background: linear-gradient(to bottom right, #7366FF, #FF6CAB);
+    }
+    50% {
+        background: linear-gradient(to bottom right, #6454F0, #6EE2F5);
+    }
+    100% {
+        background: linear-gradient(to bottom right, #7D77FF, #FF9482);
+    }
+}
+
+.box-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.box-area li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 7s linear infinite;
+    bottom: -150px;
+}
+
+.box-area li:nth-child(1) {
+    left: 86%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+.box-area li:nth-child(2) {
+    left: 12%;
+    width: 30px;
+    height: 30px;
+    animation-delay: 1.5s;
+    animation-duration: 10s;
+}
+
+.box-area li:nth-child(3) {
+    left: 70%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 5.5s;
+}
+
+.box-area li:nth-child(4) {
+    left: 42%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 10s;
+}
+
+.box-area li:nth-child(5) {
+    left: 65%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 0s;
+}
+
+.box-area li:nth-child(6) {
+    left: 15%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-800px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+.tooltip {}
+
+.tooltip .tooltiptext {
+    font-size: 250%;
+    font-family: 'Raleway';
+    display: inline-block;
+    border-bottom: 50px rgba(255, 255, 255, 0.2);
+    ;
+    visibility: hidden;
+    width: 70px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.2);
+    ;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 0 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 47.3%;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+/* Cursor */
+
+.txt-type>.txt {
+    border-right: 0.2rem solid white;
+}
+
+@media(min-width: 1200px) {
+    .box-area h2 {
+        text-align: center;
+        color: #fff;
+        font-size: 80px;
+        margin-top: 10%;
+        font-weight: 500;
+        font-family: monospace;
+    }
+    .box-area h1 {
+        text-align: center;
+        color: #fff;
+        font-size: 50px;
+        margin-top: 1.5%;
+        font-weight: 500;
+    }
+}
+
+@media(max-width: 800px) {
+    .container {
+        padding: 0 1rem;
+    }
+    .box-area h2 {
+        text-align: center;
+        color: #fff;
+        font-size: 70px;
+        margin-top: 20%;
+        font-weight: 500;
+        font-family: monospace;
+    }
+    .box-area h1 {
+        text-align: center;
+        color: #fff;
+        font-size: 45px;
+        margin-top: 1.5%;
+        font-weight: 500;
+    }
+    .tooltip .tooltiptext {
+        font-size: 250%;
+        font-family: 'Raleway';
+        display: inline-block;
+        border-bottom: 50px rgba(255, 255, 255, 0.2);
+        ;
+        visibility: hidden;
+        width: 70px;
+        height: 60px;
+        background-color: rgba(255, 255, 255, 0.2);
+        ;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 0 0;
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        top: 48%;
+        left: 45%;
+    }
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+    }
+}
+
+@media(max-width: 500px) {
+    .box-area h1 {
+        text-align: center;
+        color: #fff;
+        font-size: 30px;
+        margin-top: 1.5%;
+        font-weight: 500;
+    }
+    .box-area h2 {
+        text-align: center;
+        color: #fff;
+        font-size: 50px;
+        margin-top: 30%;
+        font-weight: 500;
+        font-family: monospace;
+    }
+    .tooltip .tooltiptext {
+        font-size: 180%;
+        font-family: 'Raleway';
+        display: inline-block;
+        border-bottom: 50px rgba(255, 255, 255, 0.2);
+        ;
+        visibility: hidden;
+        width: 50px;
+        height: 40px;
+        background-color: rgba(255, 255, 255, 0.2);
+        ;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 0 0;
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        top: 40%;
+        left: 44%;
+    }
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+    }
+}
