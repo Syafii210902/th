@@ -204,7 +204,7 @@ body {
     .box-area h1 {
         text-align: center;
         color: #fff;
-        font-size: 20px;
+        font-size: 45px;
         margin-top: 1.5%;
         font-weight: 500;
     }
@@ -238,27 +238,27 @@ body {
     .box-area h1 {
         text-align: center;
         color: #fff;
-        font-size: 40px;
+        font-size: 30px;
         margin-top: 1.5%;
         font-weight: 500;
     }
     .box-area h2 {
         text-align: center;
         color: #fff;
-        font-size: 60px;
+        font-size: 50px;
         margin-top: 30%;
         font-weight: 500;
         font-family: monospace;
     }
     .tooltip .tooltiptext {
-        font-size: 200%;
+        font-size: 180%;
         font-family: 'Raleway';
         display: inline-block;
         border-bottom: 50px rgba(255, 255, 255, 0.2);
         ;
         visibility: hidden;
-        width: 60px;
-        height: 50px;
+        width: 50px;
+        height: 40px;
         background-color: rgba(255, 255, 255, 0.2);
         ;
         color: #fff;
@@ -268,7 +268,7 @@ body {
         /* Position the tooltip */
         position: absolute;
         z-index: 1;
-        top: 43%;
+        top: 40%;
         left: 44%;
     }
     .tooltip:hover .tooltiptext {
