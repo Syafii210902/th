@@ -189,7 +189,7 @@ body {
     }
 }
 
-@media(max-width: 800px) {
+@media(max-width: 767px) {
     .container {
         padding: 0 1rem;
     }
