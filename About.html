@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style4.css">
+</head>
+<title>Dolen Skuyy</title>
+
+<body>
+
+    <div class="navbar">
+        <div class="menu">
+            <a href="Home.html" class="logo"><img src="img\logo.png" alt="Dolenskuyy"></a>
+            <a href="Home.html" class="home">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Service 
+      <i class="fa fa-caret-down"></i>
+    </button>
+                <div class="dropdown-content">
+                    <a href="Destinasi.html">Destinasi</a>
+                    <a href="Makanankhas.html">Makanan Khas</a>
+                    <a href="Budaya.html">Budaya</a>
+                </div>
+            </div>
+            <a href="Gallery.html" class="gallery">Gallery</a>
+            <a href="About.html" class="about">About</a>
+        </div>
+        <div class="signup-container">
+            <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign Up</button>
+        </div>
+        <div id="id02" class="modal2">
+            <form class="modal-content3 animate" action="/action_page.php">
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+                </div>
+                <div class="container3">
+                    <h1>Sign Up</h1>
+                    <p>Please fill in this form to create an account.</p>
+                    <hr>
+                    <label for="email"><b>Email</b></label>
+                    <input type="text2" placeholder="Enter Email" name="email" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password2" placeholder="Enter Password" name="psw" required>
+
+                    <label for="psw-repeat"><b>Repeat Password</b></label>
+                    <input type="password2" placeholder="Repeat Password" name="psw-repeat" required>
+
+                    <label>
+                  <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                </label>
+
+                    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+                    <div class="clearfix">
+                        <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn2">Cancel</button>
+                        <button type="submit" class="signupbtn2">Sign Up</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <script>
+            // Get the modal
+            var modal2 = document.getElementById('id01');
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal2) {
+                    modal2.style.display = "none";
+                }
+            }
+        </script>
+
+        <div class="login-container">
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Log In</button>
+        </div>
+
+
+        <div id="id01" class="modal">
+
+            <form class="modal-content animate" action="/action_page.php" method="post">
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                </div>
+                <div class="container">
+                    <h1>Log In</h1>
+                    <label for="uname"><b>Username</b></label>
+                    <input type="username" placeholder="Enter Username" name="uname" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button type="submit">Login</button>
+                    <label>
+                  <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+                </div>
+
+                <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+            </form>
+        </div>
+
+        <script>
+            // Get the modal
+            var modal = document.getElementById('id01');
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        </script>
+    </div>
+
+    <div class="aboutt">
+        <h1>About Me</h1>
+    </div>
+    <div class="v1"></div>
+    <div class="animasi" style="margin-left: 10%;">
+        <img src="img\syafii2.png" alt="Avatar" class="image">
+        <div class="team-caption">
+            <h3>Syafi'i</h3>
+            <p>Designer</p>
+
+            <div class="team-social">
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="animasi" style="margin-left: 10%;">
+        <img src="img\syafii.png" alt="Avatar" class="image">
+        <div class="team-caption">
+            <h3>Syafi'i</h3>
+            <p>Founder</p>
+
+            <div class="team-social">
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="animasi" style="margin-left: 10%;">
+        <img src="img\syafii3.png" alt="Avatar" class="image">
+        <div class="team-caption">
+            <h3>Syafi'i</h3>
+            <p>Administrator</p>
+
+            <div class="team-social">
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="split left" style="margin-left: 10%;">
+        <div class="centered">
+            <img src="img\syafii.png" alt="Avatar woman">
+        </div>
+    </div>
+
+    <div class="split right">
+        <span class="subheading">Know More About The Founder</span>
+        <h2>Syafi'i</h2>
+        <p>A man who is not a genius but tries hard to be who he is now.</p>
+        <ul class="about-info">
+            <li class="d-flex"><span>Name:</span> <span>Syafi'i</span></li>
+            <li class="d-flex"><span>Date of birth:</span> <span>September 21, 2002</span></li>
+            <li class="d-flex"><span>Address:</span> <span>Jl. Citandui Jogoyudan Lumajang</span></li>
+            <li class="d-flex"><span>Zip code:</span> <span>67315</span></li>
+            <li class="d-flex"><span>Email:</span> <span>siimam398@gmail.com</span></li>
+            <li class="d-flex"><span>Phone: </span> <span>+62-81-231-129-214</span></li>
+        </ul>
+        <a href="https://drive.google.com/open?id=1xAqphuo58l-thUVeaUpnbh_y-SCkyy-H" class="buttontext">Download CV</a>
+    </div>
+    <div class="contact">
+        <h1>Contact Me</h1>
+    </div>
+    <div class="v1"></div>
+    <div class="flex" style="margin-left: 10%;">
+        <div class="box">
+            <div class="icon"></div>
+            <div>
+                <h3 class="deskripsi">Address</h3>
+                <p>Jl. Citandui Suko Jogoyudan</p>
+            </div>
+        </div>
+    </div>
+    <div class="flex" s>
+        <div class="box">
+            <div class="icon"></div>
+            <div>
+                <h3 class="deskripsi">Contact Number</h3>
+                <p>+62-81-231-129-214</p>
+            </div>
+        </div>
+    </div>
+    <div class="flex">
+        <div class="box">
+            <div class="icon"></div>
+            <div>
+                <h3 class="deskripsi">Email Address</h3>
+                <p>siimam398@gmail.com</p>
+            </div>
+        </div>
+    </div>
+    <div class="flex">
+        <div class="box">
+            <div class="icon"></div>
+            <div>
+                <h3 class="deskripsi">Website</h3>
+                <p>Dolenskuyy.com</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="split left" style="margin-left: 10%; margin-top: 25%;">
+        <div class="centered">
+            <img src="img\syafii.png" alt="Avatar woman">
+        </div>
+    </div>
+
+    <div class="split right" style="margin-top: 0.5%;">
+        <div class="container4">
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="country">Province</label>
+                <select id="country" name="country">
+                <option value="jatim">Jawa Timur</option>
+                <option value="jateng">Jawa Tengah</option>
+                <option value="jabar">Jawa Barat</option>
+                <option value="lainnya">Lainnya</option>
+              </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <footer>
+            <div class="copyright-box">
+                <p class="copyright">&copy; Copyright <strong>Syafi'i</strong>. All Rights Reserved</p>
+                <div class="credits">
+                    Designed by <a href="https://www.instagram.com/syafii_0921">SyafiiMade</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

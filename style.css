@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Teko:wght@700&display=swap');
+
 /* width */
 
 ::-webkit-scrollbar {
@@ -42,21 +45,34 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    margin-right: 1%;
 }
 
 .home {
     margin-left: 0;
     background: linear-gradient(to bottom right, #00B8BA, #00FFED);
+    margin-top: 20px;
 }
 
-.menu a {
-    margin-right: 1%;
+.logo img {
+    width: 50px;
+    height: auto;
+}
+
+.gallery {
+    margin-top: 20px;
+}
+
+.about {
+    margin-top: 20px;
 }
 
 .dropdown {
     float: left;
     margin-right: 1%;
     overflow: hidden;
+    bottom: 0;
+    margin-top: 20px;
 }
 
 .dropdown .dropbtn {
@@ -106,6 +122,7 @@ body {
 .navbar .login-container {
     float: right;
     margin-right: 0;
+    margin-top: 20px;
 }
 
 .navbar .login-container button {
@@ -128,6 +145,7 @@ body {
 .navbar .signup-container {
     float: right;
     margin-right: 0;
+    margin-top: 20px;
 }
 
 .navbar .signup-container button {
@@ -305,30 +323,30 @@ img {
 .text {
     color: white;
     position: absolute;
-    top: 25%;
+    top: 15%;
     bottom: 8px;
     width: 100%;
     text-align: center;
 }
 
 .text1 {
-    font-family: Impact;
-    font-size: 400%;
-    margin-top: 10px;
+    font-family: 'Teko', sans-serif;
+    font-size: 600%;
+    margin-top: 0px;
     margin-bottom: 0;
 }
 
 .text2 {
-    font-family: Impact;
-    font-size: 250%;
-    margin-top: 0;
+    font-family: 'Teko', sans-serif;
+    font-size: 400%;
+    margin-top: -40px;
     margin-bottom: 0;
 }
 
 .text3 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 150%;
-    margin-top: 10px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 200%;
+    margin-top: -10px;
     margin-bottom: 0;
 }
 
@@ -397,8 +415,8 @@ img {
 .wisatapopuler {
     text-align: center;
     opacity: 0.7;
-    font-family: Impact;
-    font-size: 150%;
+    font-family: 'Teko', sans-serif;
+    font-size: 200%;
     margin-top: 7%;
 }
 
@@ -406,35 +424,35 @@ img {
     border-top: 8px solid #00B8BA;
     margin-left: 42.5%;
     width: 15%;
-    margin-top: -20px;
+    margin-top: -50px;
 }
 
 .v2 {
     border-top: 8px solid #00b8ba;
     width: 20%;
     margin-left: 40%;
-    margin-top: -20px;
+    margin-top: -50px;
 }
 
 .v3 {
     border-top: 8px solid #00b8ba;
     width: 15%;
     margin-left: 42.5%;
-    margin-top: -20px;
+    margin-top: -50px;
 }
 
 .v4 {
     border-top: 8px solid #00b8ba;
     width: 10%;
     margin-left: 45%;
-    margin-top: -20px;
+    margin-top: -50px;
 }
 
 .v5 {
     border-top: 8px solid #00b8ba;
     width: 23%;
     margin-left: 39%;
-    margin-top: -20px;
+    margin-top: -50px;
 }
 
 .animasi {
@@ -499,9 +517,9 @@ img {
 .top-left {
     text-align: center;
     top: 350px;
-    font-size: 140%;
+    font-size: 130%;
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Barlow', sans-serif;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     background: linear-gradient(to bottom right, #00B8BA, #00FFED);
 }
@@ -509,9 +527,9 @@ img {
 .top-left2 {
     text-align: center;
     top: 300px;
-    font-size: 140%;
+    font-size: 130%;
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Barlow', sans-serif;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     background: linear-gradient(to bottom right, #00B8BA, #00FFED);
 }
@@ -519,8 +537,8 @@ img {
 .tentanglumajang {
     text-align: center;
     opacity: 0.7;
-    font-family: Impact;
-    font-size: 150%;
+    font-family: 'Teko', sans-serif;
+    font-size: 200%;
     margin-top: 40%;
 }
 
@@ -538,31 +556,35 @@ img {
     float: left;
     margin-top: 3%;
     left: 15%;
-    font-size: 140%;
+    font-size: 135%;
+    font-family: 'Barlow', sans-serif;
     text-align: justify;
+    padding: 0px 24px;
+    border-radius: 15px;
+    background-color: rgb(219, 255, 255);
 }
 
 .makanankhas {
     text-align: center;
     opacity: 0.7;
-    font-family: Impact;
-    font-size: 150%;
+    font-family: 'Teko', sans-serif;
+    font-size: 200%;
     margin-top: 45%;
 }
 
 .budaya {
     text-align: center;
     opacity: 0.7;
-    font-family: Impact;
-    font-size: 150%;
+    font-family: 'Teko', sans-serif;
+    font-size: 200%;
     margin-top: 35%;
 }
 
 .pemenang {
     text-align: center;
     opacity: 0.7;
-    font-family: Impact;
-    font-size: 150%;
+    font-family: 'Teko', sans-serif;
+    font-size: 200%;
     margin-top: 30%;
 }
 
@@ -629,9 +651,13 @@ img {
 .promosi {
     text-align: center;
     opacity: 0.7;
-    font-family: Impact;
-    font-size: 150%;
+    font-family: 'Teko', sans-serif;
+    font-size: 200%;
     margin-top: 40%;
+}
+
+.promosi p {
+    margin-top: -2%;
 }
 
 
@@ -642,6 +668,7 @@ img {
     padding: 1px;
     background-color: #333;
     color: #00FFED;
+    font-family: 'Barlow', sans-serif;
 }
 
 .copyright-box {
