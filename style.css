@@ -806,3 +806,7 @@ hr {
     clear: both;
     display: table;
 }
+
+.fa-instagram {
+    background: linear-gradient(to bottom left, #515bd4, #dd2a7b, #feda77);
+}
