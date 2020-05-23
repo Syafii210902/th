@@ -693,11 +693,11 @@ img {
     .pemenang {
         margin-top: 95%;
     }
-    .animasi:nth-child(1) {
-        margin-left: 10%;
+    .animasi:first-child {
+        margin-left: 12%;
     }
     .animasi:nth-child(odd) {
-        margin-left: 10%;
+        margin-left: 12%;
     }
     .image3 {
         height: 20vh;
