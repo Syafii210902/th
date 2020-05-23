@@ -694,10 +694,10 @@ img {
         margin-top: 95%;
     }
     .animasi:first-child {
-        margin-left: 12%;
+        margin-left: 10%;
     }
     .animasi:nth-child(odd) {
-        margin-left: 12%;
+        margin-left: 10%;
     }
     .image3 {
         height: 20vh;
@@ -876,6 +876,6 @@ hr {
     margin-left: 12.5%;
 }
 
-.animasi:nth-child(1) {
+.grup {
     margin-left: 6%;
 }
