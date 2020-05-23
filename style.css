@@ -699,6 +699,9 @@ img {
     .animasi:nth-child(odd) {
         margin-left: 12%;
     }
+    .animasi:nth-child(even) {
+        margin-right: 12%;
+    }
 }
 
 
