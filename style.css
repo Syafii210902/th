@@ -691,7 +691,7 @@ img {
         margin-top: 105%;
     }
     .animasi4 {
-        width: 100%;
+        width: 40%;
     }
     .pemenang {
         margin-top: 95%;
@@ -861,6 +861,10 @@ hr {
     float: left;
     margin-top: 5%;
     margin-left: 5%;
+}
+
+.animasi4:first-child {
+    margin-left: 12.5%;
 }
 
 .animasi:nth-child(1) {
