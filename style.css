@@ -693,7 +693,7 @@ img {
     .pemenang {
         margin-top: 95%;
     }
-    .animasi:nth-child(even) {
+    .animasi:nth-child(odd) {
         margin-left: 10%;
     }
     .image3 {
