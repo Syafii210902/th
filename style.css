@@ -668,7 +668,7 @@ img {
         width: 4vw;
         text-align: center;
         margin: 1vw 0;
-        margin-left: 22.5%;
+        margin-left: 25%;
     }
     .fa-twitter {
         font-size: 4vw;
@@ -681,10 +681,10 @@ img {
         text-align: center;
     }
     .animasi {
-        width: 38%;
+        width: 44%;
     }
     .tentanglumajang {
-        margin-top: 110%;
+        margin-top: 125%;
     }
     .makanankhas {
         margin-top: 45%;
@@ -699,10 +699,10 @@ img {
         margin-top: 10%
     }
     .animasi:first-child {
-        margin-left: 6%;
+        margin-left: 2%;
     }
     .animasi:nth-child(odd) {
-        margin-left: 6%;
+        margin-left: 2%;
     }
     .image3 {
         height: 15vh;
