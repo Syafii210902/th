@@ -690,12 +690,6 @@ img {
     .budaya {
         margin-top: 105%;
     }
-    .animasi4 {
-        width: 80%;
-    }
-    .animasi4:nth-child(even) {
-        margin-left: 30%;
-    }
     .pemenang {
         margin-top: 95%;
     }
