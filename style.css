@@ -679,7 +679,7 @@ img {
         text-align: center;
     }
     .animasi {
-        width: 38%;
+        width: 44%;
     }
     .tentanglumajang {
         margin-top: 125%;
@@ -690,11 +690,11 @@ img {
     .budaya {
         margin-top: 105%;
     }
-    .animasi4 {
-        width: 100%;
-    }
     .pemenang {
-        margin-top: 110%;
+        margin-top: 95%;
+    }
+    .animasi:nth-child(2n+1) {
+        margin-left: 12%;
     }
 }
 
