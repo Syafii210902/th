@@ -470,7 +470,7 @@ img {
 .image3 {
     display: block;
     width: 100%;
-    height: 25vh;
+    height: 30vh;
 }
 
 .overlay {
@@ -698,6 +698,9 @@ img {
     }
     .animasi:nth-child(even) {
         margin-left: 10%;
+    }
+    .image3 {
+        height: 20vh;
     }
 }
 
