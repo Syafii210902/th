@@ -470,7 +470,7 @@ img {
 .image3 {
     display: block;
     width: 100%;
-    height: 30vh;
+    height: 15vw;
 }
 
 .overlay {
@@ -683,19 +683,27 @@ img {
     .animasi {
         width: 44%;
     }
+    .wisatapopuler {
+        font-size: 3vw;
+    }
     .tentanglumajang {
+        font-size: 3vw;
         margin-top: 125%;
     }
     .makanankhas {
+        font-size: 3vw;
         margin-top: 45%;
     }
     .budaya {
-        margin-top: 95%;
+        font-size: 3vw;
+        margin-top: 110%;
     }
     .pemenang {
+        font-size: 3vw;
         margin-top: 85%;
     }
     .promosi {
+        font-size: 4vw;
         margin-top: 10%
     }
     .animasi:first-child {
@@ -705,7 +713,7 @@ img {
         margin-left: 1%;
     }
     .image3 {
-        height: 15vh;
+        height: 20vw;
     }
     .grup .animasi4 {
         position: relative;
@@ -716,6 +724,33 @@ img {
     }
     .grup .animasi4:first-child {
         margin-left: 20%;
+    }
+    .text {
+        top: 3vw;
+    }
+    .text1 {
+        font-size: 10vw;
+    }
+    .text2 {
+        font-size: 7vw;
+    }
+    .text3 {
+        font-size: 4vw;
+    }
+    .buttontext {
+        padding: 2vw 4vw;
+        margin-top: 3vw;
+        font-size: 3vw;
+    }
+    .textbox {
+        font-size: 3vw;
+        padding: 1.5vw 1vw;
+    }
+    .top-left {
+        font-size: 3vw;
+    }
+    .top-left2 {
+        font-size: 3vw;
     }
 }
 
