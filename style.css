@@ -703,7 +703,7 @@ img {
         margin-top: 85%;
     }
     .promosi {
-        font-size: 4vw;
+        font-size: 3.5vw;
         margin-top: 10%
     }
     .animasi:first-child {
@@ -713,7 +713,7 @@ img {
         margin-left: 1%;
     }
     .image3 {
-        height: 20vw;
+        height: 25vw;
     }
     .grup .animasi4 {
         position: relative;
@@ -767,9 +767,9 @@ img {
 
 .copyright-box {
     text-align: center;
-    margin-bottom: 6vw;
-    margin-top: 6vw;
-    font-size: 1.3vw;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    font-size: 1.7vw;
 }
 
 .copyright-box a {
