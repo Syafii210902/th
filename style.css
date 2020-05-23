@@ -456,7 +456,7 @@ img {
 
 .animasi {
     position: relative;
-    width: 20%;
+    width: 22%;
     float: left;
     margin-top: 5%;
 }
@@ -470,7 +470,7 @@ img {
 .image3 {
     display: block;
     width: 100%;
-    height: 15vw;
+    height: 30vh;
 }
 
 .overlay {
@@ -514,6 +514,7 @@ img {
 }
 
 .top-left {
+    padding: 5% 0px;
     text-align: center;
     top: 350px;
     font-size: 1.5vw;
@@ -524,6 +525,7 @@ img {
 }
 
 .top-left2 {
+    padding: 5% 0px;
     text-align: center;
     top: 300px;
     font-size: 1.5vw;
@@ -676,6 +678,24 @@ img {
         width: 1.5vw;
         text-align: center;
     }
+    .animasi {
+        width: 44%;
+    }
+    .tentanglumajang {
+        margin-top: 125%;
+    }
+    .makanankhas {
+        margin-top: 50%;
+    }
+    .budaya {
+        margin-top: 105%;
+    }
+    .animasi4 {
+        width: 100%;
+    }
+    .pemenang {
+        margin-top: 110%;
+    }
 }
 
 
@@ -827,4 +847,18 @@ hr {
 
 .fa-instagram {
     background: linear-gradient(to bottom left, #515bd4, #dd2a7b, #feda77);
+}
+
+.grup {
+    padding: 0;
+    margin: 0;
+    margin-left: 12%;
+}
+
+.animasi4 {
+    position: relative;
+    width: 22%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;
 }
