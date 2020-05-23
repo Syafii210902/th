@@ -699,9 +699,6 @@ img {
     .animasi:nth-child(2n+1) {
         margin-left: 12%;
     }
-    .animasi:nth-child(2n) {
-        margin-right: 5%;
-    }
 }
 
 
@@ -863,6 +860,6 @@ hr {
     margin-left: 5%;
 }
 
-.animasi:nth-child(4n+1) {
+.grup {
     margin-left: 12%;
 }
