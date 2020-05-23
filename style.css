@@ -609,26 +609,26 @@ img {
 }
 
 .fa-facebook {
-    padding: 10px;
+    padding: 1vw;
     font-size: 2vw;
     width: 2vw;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    margin: 0.5vw 0.5vw;
     border-radius: 50%;
     background: #3B5998;
     color: white;
     z-index: 1;
-    margin-left: 20%;
+    margin-left: 15%;
 }
 
 .fa-twitter {
-    padding: 10px;
+    padding: 1vw;
     font-size: 2vw;
     width: 2vw;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    margin: 0.5vw 0.5vw;
     border-radius: 50%;
     background: #55ACEE;
     color: white;
@@ -636,12 +636,12 @@ img {
 }
 
 .fa-instagram {
-    padding: 10px;
+    padding: 1vw;
     font-size: 2vw;
     width: 2vw;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    margin: 0.5vw 0.5vw;
     border-radius: 50%;
     background: #125688;
     color: white;
@@ -662,17 +662,19 @@ img {
 
 @media only screen and (max-width: 768px) {
     .fa-facebook {
-        font-size: 1vw;
-        width: 1vw;
-        margin-left: 0;
+        font-size: 1.5vw;
+        width: 1.5vw;
+        text-align: center;
     }
     .fa-twitter {
-        font-size: 1vw;
-        width: 1vw;
+        font-size: 1.5vw;
+        width: 1.5vw;
+        text-align: center;
     }
     .fa-instagram {
-        font-size: 1vw;
-        width: 1vw;
+        font-size: 1.5vw;
+        width: 1.5vw;
+        text-align: center;
     }
 }
 
