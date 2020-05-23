@@ -353,15 +353,15 @@ img {
     background: linear-gradient(to bottom right, #00B8BA, #00FFED);
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 1.2vw 2vw;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1.2vw;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 30px;
-    margin-top: 2vw;
+    margin-top: 1vw;
 }
 
 .buttontext:hover {
@@ -558,7 +558,7 @@ img {
     font-size: 1.6vw;
     font-family: 'Barlow', sans-serif;
     text-align: justify;
-    padding: 0px 24px;
+    padding: 0px 2vw;
     border-radius: 15px;
     background-color: rgb(219, 255, 255);
 }
@@ -682,22 +682,22 @@ img {
 /* FOOTER */
 
 .footer {
-    margin-top: 100px;
+    margin-top: 10%;
     padding: 1px;
     background-color: #333;
-    color: #00FFED;
+    color: white;
     font-family: 'Barlow', sans-serif;
 }
 
 .copyright-box {
     text-align: center;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    font-size: 17px;
+    margin-bottom: 6vw;
+    margin-top: 6vw;
+    font-size: 1.3vw;
 }
 
 .copyright-box a {
-    color: #00FFED;
+    color: white;
     opacity: 0.7;
 }
 
