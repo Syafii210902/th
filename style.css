@@ -470,7 +470,7 @@ img {
 .image3 {
     display: block;
     width: 100%;
-    height: 30vh;
+    height: 25vh;
 }
 
 .overlay {
@@ -696,9 +696,6 @@ img {
     .pemenang {
         margin-top: 95%;
     }
-    .animasi:nth-child(4n+3) {
-        margin-left: 6%;
-    }
 }
 
 
@@ -852,18 +849,16 @@ hr {
     background: linear-gradient(to bottom left, #515bd4, #dd2a7b, #feda77);
 }
 
+.grup {
+    padding: 0;
+    margin: 0;
+    margin-left: 12%;
+}
+
 .animasi4 {
     position: relative;
     width: 22%;
     float: left;
     margin-top: 5%;
     margin-left: 5%;
-}
-
-.animasi:nth-child(4n+1) {
-    margin-left: 6%;
-}
-
-.animasi4:nth-child(1) {
-    margin-left: 12%;
 }
