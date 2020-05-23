@@ -682,22 +682,22 @@ img {
         width: 38%;
     }
     .tentanglumajang {
-        margin-top: 125%;
+        margin-top: 110%;
     }
     .makanankhas {
-        margin-top: 50%;
+        margin-top: 45%;
     }
     .budaya {
-        margin-top: 105%;
-    }
-    .pemenang {
         margin-top: 95%;
     }
+    .pemenang {
+        margin-top: 85%;
+    }
     .animasi:first-child {
-        margin-left: 10%;
+        margin-left: 6%;
     }
     .animasi:nth-child(odd) {
-        margin-left: 10%;
+        margin-left: 6%;
     }
     .image3 {
         height: 20vh;
@@ -706,10 +706,10 @@ img {
         position: relative;
         width: 38%;
         float: none;
-        margin-left: 31%;
+        margin-left: 25%;
     }
     .grup .animasi4:first-child {
-        margin-left: 31%;
+        margin-left: 25%;
     }
 }
 
@@ -877,5 +877,5 @@ hr {
 }
 
 .grup {
-    margin-left: 6%;
+    margin-left: 12%;
 }
