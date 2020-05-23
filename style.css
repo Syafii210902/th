@@ -699,6 +699,13 @@ img {
     .image3 {
         height: 20vh;
     }
+    .grup .animasi4 {
+        width: 38%;
+        margin-left: 31%;
+    }
+    .grup .animasi4:first-child {
+        margin-left: 31%;
+    }
 }
 
 
