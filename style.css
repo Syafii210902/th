@@ -305,7 +305,7 @@ span.psw {
 
 img {
     vertical-align: middle;
-    height: 700px;
+    height: 50vw;
 }
 
 
@@ -323,30 +323,29 @@ img {
 .text {
     color: white;
     position: absolute;
-    top: 15%;
-    bottom: 8px;
+    top: 8vw;
     width: 100%;
     text-align: center;
 }
 
 .text1 {
     font-family: 'Teko', sans-serif;
-    font-size: 600%;
+    font-size: 7vw;
     margin-top: 0px;
     margin-bottom: 0;
 }
 
 .text2 {
     font-family: 'Teko', sans-serif;
-    font-size: 400%;
-    margin-top: -40px;
+    font-size: 5vw;
+    margin-top: -2vw;
     margin-bottom: 0;
 }
 
 .text3 {
     font-family: 'Barlow', sans-serif;
-    font-size: 200%;
-    margin-top: -10px;
+    font-size: 2.5vw;
+    margin-top: -1vw;
     margin-bottom: 0;
 }
 
@@ -362,7 +361,7 @@ img {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 30px;
-    margin-top: 20px;
+    margin-top: 2vw;
 }
 
 .buttontext:hover {
@@ -416,43 +415,43 @@ img {
     text-align: center;
     opacity: 0.7;
     font-family: 'Teko', sans-serif;
-    font-size: 200%;
+    font-size: 2vw;
     margin-top: 7%;
 }
 
 .v1 {
-    border-top: 8px solid #00B8BA;
+    border-top: 0.5vw solid #00B8BA;
     margin-left: 42.5%;
     width: 15%;
-    margin-top: -50px;
+    margin-top: -3vw;
 }
 
 .v2 {
-    border-top: 8px solid #00b8ba;
+    border-top: 0.5vw solid #00B8BA;
     width: 20%;
     margin-left: 40%;
-    margin-top: -50px;
+    margin-top: -3vw;
 }
 
 .v3 {
-    border-top: 8px solid #00b8ba;
+    border-top: 0.5vw solid #00B8BA;
     width: 15%;
     margin-left: 42.5%;
-    margin-top: -50px;
+    margin-top: -3vw;
 }
 
 .v4 {
-    border-top: 8px solid #00b8ba;
+    border-top: 0.5vw solid #00B8BA;
     width: 10%;
     margin-left: 45%;
-    margin-top: -50px;
+    margin-top: -3vw;
 }
 
 .v5 {
-    border-top: 8px solid #00b8ba;
+    border-top: 0.5vw solid #00B8BA;
     width: 23%;
     margin-left: 39%;
-    margin-top: -50px;
+    margin-top: -3vw;
 }
 
 .animasi {
@@ -471,7 +470,7 @@ img {
 .image3 {
     display: block;
     width: 100%;
-    height: 200px;
+    height: 15vw;
 }
 
 .overlay {
@@ -499,8 +498,8 @@ img {
     opacity: 0;
     background: linear-gradient(to bottom right, #00B8BA, #00FFED);
     color: white;
-    font-size: 14px;
-    padding: 16px 20px;
+    font-size: 1vw;
+    padding: 1.3vw 1.5vw;
     transition: .5s ease;
     position: absolute;
     top: 50%;
@@ -517,7 +516,7 @@ img {
 .top-left {
     text-align: center;
     top: 350px;
-    font-size: 130%;
+    font-size: 1.5vw;
     color: white;
     font-family: 'Barlow', sans-serif;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -527,7 +526,7 @@ img {
 .top-left2 {
     text-align: center;
     top: 300px;
-    font-size: 130%;
+    font-size: 1.5vw;
     color: white;
     font-family: 'Barlow', sans-serif;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -538,7 +537,7 @@ img {
     text-align: center;
     opacity: 0.7;
     font-family: 'Teko', sans-serif;
-    font-size: 200%;
+    font-size: 2vw;
     margin-top: 40%;
 }
 
@@ -556,7 +555,7 @@ img {
     float: left;
     margin-top: 3%;
     left: 15%;
-    font-size: 135%;
+    font-size: 1.6vw;
     font-family: 'Barlow', sans-serif;
     text-align: justify;
     padding: 0px 24px;
@@ -568,7 +567,7 @@ img {
     text-align: center;
     opacity: 0.7;
     font-family: 'Teko', sans-serif;
-    font-size: 200%;
+    font-size: 2vw;
     margin-top: 45%;
 }
 
@@ -576,7 +575,7 @@ img {
     text-align: center;
     opacity: 0.7;
     font-family: 'Teko', sans-serif;
-    font-size: 200%;
+    font-size: 2vw;
     margin-top: 35%;
 }
 
@@ -584,7 +583,7 @@ img {
     text-align: center;
     opacity: 0.7;
     font-family: 'Teko', sans-serif;
-    font-size: 200%;
+    font-size: 2vw;
     margin-top: 30%;
 }
 
@@ -611,8 +610,8 @@ img {
 
 .fa-facebook {
     padding: 10px;
-    font-size: 30px;
-    width: 30px;
+    font-size: 2vw;
+    width: 2vw;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -620,12 +619,13 @@ img {
     background: #3B5998;
     color: white;
     z-index: 1;
+    margin-left: 20%;
 }
 
 .fa-twitter {
     padding: 10px;
-    font-size: 30px;
-    width: 30px;
+    font-size: 2vw;
+    width: 2vw;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -637,8 +637,8 @@ img {
 
 .fa-instagram {
     padding: 10px;
-    font-size: 30px;
-    width: 30px;
+    font-size: 2vw;
+    width: 2vw;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -652,12 +652,28 @@ img {
     text-align: center;
     opacity: 0.7;
     font-family: 'Teko', sans-serif;
-    font-size: 200%;
+    font-size: 2vw;
     margin-top: 40%;
 }
 
 .promosi p {
     margin-top: -2%;
+}
+
+@media only screen and (max-width: 768px) {
+    .fa-facebook {
+        font-size: 1vw;
+        width: 1vw;
+        margin-left: 0;
+    }
+    .fa-twitter {
+        font-size: 1vw;
+        width: 1vw;
+    }
+    .fa-instagram {
+        font-size: 1vw;
+        width: 1vw;
+    }
 }
 
 
