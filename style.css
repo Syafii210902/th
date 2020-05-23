@@ -711,6 +711,7 @@ img {
         position: relative;
         width: 48%;
         float: none;
+        margin-top: 15%;
         margin-left: 20%;
     }
     .grup .animasi4:first-child {
@@ -873,7 +874,7 @@ hr {
     position: relative;
     width: 22%;
     float: left;
-    margin-top: 15%;
+    margin-top: 5%;
     margin-left: 5%;
 }
 
