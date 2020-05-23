@@ -693,6 +693,9 @@ img {
     .animasi4 {
         width: 40%;
     }
+    .animasi4:nth-child(odd) {
+        margin-left: 30%;
+    }
     .pemenang {
         margin-top: 95%;
     }
