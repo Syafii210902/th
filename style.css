@@ -696,7 +696,7 @@ img {
     .pemenang {
         margin-top: 95%;
     }
-    .animasi:nth-child(3n+4) {
+    .animasi:nth-child(4n+3) {
         margin-left: 12%;
     }
 }
