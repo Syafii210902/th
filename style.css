@@ -699,10 +699,10 @@ img {
         margin-top: 10%
     }
     .animasi:first-child {
-        margin-left: 2%;
+        margin-left: 1%;
     }
     .animasi:nth-child(odd) {
-        margin-left: 2%;
+        margin-left: 1%;
     }
     .image3 {
         height: 15vh;
