@@ -691,7 +691,7 @@ img {
         margin-top: 95%;
     }
     .pemenang {
-        margin-top: 85%;
+        margin-top: 95%;
     }
     .animasi:first-child {
         margin-left: 6%;
@@ -870,10 +870,6 @@ hr {
     float: left;
     margin-top: 5%;
     margin-left: 5%;
-}
-
-.animasi4:first-child {
-    margin-left: 12.5%;
 }
 
 .grup {
