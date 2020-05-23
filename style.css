@@ -696,10 +696,10 @@ img {
     .pemenang {
         margin-top: 95%;
     }
-    .animasi:nth-child(odd) {
+    .animasi:nth-child(2n+1) {
         margin-left: 12%;
     }
-    .animasi:nth-child(even) {
+    .animasi:nth-child(2n) {
         margin-right: 10%;
     }
 }
