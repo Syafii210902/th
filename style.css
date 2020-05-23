@@ -700,11 +700,10 @@ img {
         height: 20vh;
     }
     .grup .animasi4 {
+        position: relative;
         width: 38%;
+        float: none;
         margin-left: 31%;
-    }
-    .grup .animasi4:first-child {
-        margin-left: 50%;
     }
 }
 
