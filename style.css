@@ -696,6 +696,9 @@ img {
     .pemenang {
         margin-top: 95%;
     }
+    .animasi:nth-child(3) {
+        margin-left: 12%;
+    }
 }
 
 
