@@ -61,7 +61,6 @@ body {
 
 .gallery {
     margin-top: 20px;
-    background: linear-gradient(to bottom right, #00B8BA, #00FFED);
 }
 
 .about {
@@ -146,24 +145,6 @@ body {
     cursor: pointer;
 }
 
-.profile a {
-    width: 50px;
-    margin-top: 20px;
-    margin-right: 20px;
-    float: right;
-}
-
-.profile a:hover {
-    transform: scale(1.1);
-}
-
-.pp {
-    width: 100%;
-    background-color: #00B8BA;
-    height: 42vh;
-    position: absolute;
-}
-
 
 /* Clear floats */
 
@@ -189,6 +170,76 @@ body {
     background-color: #00B8BA;
     height: 42vh;
     position: absolute;
+    color: white;
+    font-family: 'Teko', sans-serif;
+}
+
+.pp h1 {
+    font-size: 100px;
+    margin-top: -120px;
+    margin-left: 20%;
+}
+
+.pp i {
+    margin-left: 10%;
+    margin-top: 2%;
+    font-size: 100px;
+}
+
+.upload {
+    margin-top: -5%;
+    margin-left: 12%;
+}
+
+.upload button {
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    color: #00B8BA;
+    font-size: 18px;
+    padding: 8px 30px;
+    font-family: 'Teko', sans-serif;
+    cursor: pointer;
+}
+
+.upload button:hover {
+    background-color: #00FFED;
+    color: white;
+}
+
+input {
+    background-color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border-radius: 20px;
+    color: #00B8BA;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+input[placeholder="Nama Wisata"] {
+    font-size: 15px;
+    font-family: 'Teko', sans-serif;
+}
+
+label {
+    background-color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 8px 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+    color: #00B8BA;
+    cursor: pointer;
+}
+
+label:hover {
+    background-color: #00FFED;
+    color: white;
 }
 
 .isi {
@@ -198,22 +249,6 @@ body {
 .isi p {
     margin-top: 18px;
     margin-left: 5px;
-}
-
-.galeri {
-    text-align: center;
-    opacity: 0.7;
-    font-family: 'Teko', sans-serif;
-    font-size: 200%;
-    margin-top: 5%;
-}
-
-.v1 {
-    border-top: 8px solid #00b8ba;
-    width: 10%;
-    margin-left: 45%;
-    margin-top: -4vw;
-    margin-bottom: -20%;
 }
 
 .grup {
@@ -286,44 +321,11 @@ body {
     font-family: 'Barlow', sans-serif;
 }
 
-.upload {
-    margin-top: 15%;
-    margin-left: 12%;
-}
-
-.previousnext a {
-    text-decoration: none;
-    display: inline-block;
-    padding: 12px 32px;
-    position: relative;
-}
-
-.previous {
-    background-color: #f1f1f1;
-    color: black;
-    margin-top: 30%;
-    margin-left: 40%;
-}
-
-.previous:hover {
-    background-color: #ddd;
-}
-
-.next {
-    background-color: #00b8ba;
-    color: white;
-}
-
-.next:hover {
-    background-color: #00FFED;
-}
-
 .footer {
-    margin-top: 100px;
+    margin-top: 90%;
     padding: 1px;
     background-color: #333;
     color: white;
-    font-family: 'Barlow', sans-serif;
 }
 
 .copyright-box {

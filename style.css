@@ -55,6 +55,7 @@ body {
 }
 
 .logo img {
+    margin-left: 10px;
     width: 50px;
     height: auto;
 }
@@ -86,7 +87,7 @@ body {
     margin: 0;
 }
 
-.navbar a:hover,
+.navbar a:hover:not(:first-child),
 .dropdown:hover .dropbtn {
     background: linear-gradient(to bottom right, #00B8BA, #00FFED);
 }
@@ -119,17 +120,25 @@ body {
     display: block;
 }
 
-.navbar .login-container {
+.navbar .logout-container button:hover {
+    opacity: 0.7;
+}
+
+.navbar .logout-container {
     float: right;
-    margin-right: 0;
+    margin-right: 20px;
     margin-top: 20px;
 }
 
-.navbar .login-container button {
+.navbar .logout-container a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .logout-container button {
     float: right;
     border-radius: 5px;
     margin-top: 4px;
-    margin-right: 10px;
     padding: 8px 13px;
     background: linear-gradient(to bottom right, #00B8BA, #00FFED);
     color: white;
@@ -138,162 +147,22 @@ body {
     cursor: pointer;
 }
 
-.navbar .signup-container button:hover {
-    opacity: 0.7;
-}
-
-.navbar .signup-container {
-    float: right;
-    margin-right: 0;
+.profile a {
+    width: 50px;
     margin-top: 20px;
-}
-
-.navbar .signup-container button {
+    margin-right: 20px;
     float: right;
-    border-radius: 5px;
-    margin-top: 4px;
-    margin-right: 10px;
-    padding: 8px 13px;
-    background: linear-gradient(to bottom right, #00B8BA, #00FFED);
-    color: white;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
 }
 
-.navbar .login-container button:hover {
-    opacity: 0.7;
+.profile a:hover {
+    transform: scale(1.1);
 }
 
-.modal input[type=username],
-.modal input[type=password] {
+.pp {
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-}
-
-.modal button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: auto;
-}
-
-.modal button:hover {
-    opacity: 0.8;
-}
-
-.modal .cancelbtn {
-    width: auto;
-    padding: 10px 18px;
-    background-color: #f44336;
-}
-
-
-/* Center the image and position the close button */
-
-.container {
-    color: white;
-    padding: 16px;
-    background: linear-gradient(to bottom right, #00B8BA, #00FFED);
-}
-
-span.psw {
-    float: right;
-    padding-top: 16px;
-}
-
-
-/* The Modal (background) */
-
-.modal {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Stay in place */
-    z-index: 1;
-    /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%;
-    /* Full width */
-    height: 100%;
-    /* Full height */
-    overflow: auto;
-    /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0);
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.6);
-    /* Black w/ opacity */
-    padding-top: 60px;
-}
-
-
-/* Modal Content/Box */
-
-.modal-content {
-    background: linear-gradient(to bottom right, #00B8BA, #00FFED);
-    margin: 5% auto 15% auto;
-    /* 5% from the top, 15% from the bottom and centered */
-    border: 1px solid #888;
-    width: 40%;
-    /* Could be more or less, depending on screen size */
-}
-
-
-/* The Close Button (x) */
-
-.close {
+    background-color: #00B8BA;
+    height: 42vh;
     position: absolute;
-    right: 25px;
-    top: 0;
-    color: #000;
-    font-size: 35px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: red;
-    cursor: pointer;
-}
-
-.imgcontainer {
-    text-align: center;
-    margin: 24px 0 12px 0;
-    position: relative;
-}
-
-
-/* Add Zoom Animation */
-
-.animate {
-    -webkit-animation: animatezoom 0.6s;
-    animation: animatezoom 0.6s
-}
-
-@-webkit-keyframes animatezoom {
-    from {
-        -webkit-transform: scale(0)
-    }
-    to {
-        -webkit-transform: scale(1)
-    }
-}
-
-@keyframes animatezoom {
-    from {
-        transform: scale(0)
-    }
-    to {
-        transform: scale(1)
-    }
 }
 
 
@@ -590,7 +459,7 @@ img {
 }
 
 .zoomimage img {
-    transition: all .5s ease-in-out;
+    transition: all .6s ease-in-out;
     border-radius: 10px;
 }
 
@@ -621,7 +490,7 @@ img {
     background: #3B5998;
     color: white;
     z-index: 1;
-    margin-left: 17.5%;
+    margin-left: 12.5%;
 }
 
 .fa-twitter {
@@ -645,7 +514,7 @@ img {
     text-decoration: none;
     margin: 0.5vw 0.5vw;
     border-radius: 50%;
-    background: #125688;
+    background: linear-gradient(to bottom left, #515bd4, #dd2a7b, #feda77);
     color: white;
     z-index: 1;
 }
@@ -758,6 +627,7 @@ img {
 /* FOOTER */
 
 .footer {
+    bottom: 0;
     margin-top: 10%;
     padding: 1px;
     background-color: #333;
@@ -780,8 +650,9 @@ img {
 
 /* SIGN UP */
 
-input[type=text2],
-input[type=password2] {
+.modal2 input[type=username],
+.modal2 input[type=text2],
+.modal2 input[type=password2] {
     width: 93%;
     padding: 15px;
     margin: 5px 0 22px 0;
@@ -899,10 +770,6 @@ hr {
     content: "";
     clear: both;
     display: table;
-}
-
-.fa-instagram {
-    background: linear-gradient(to bottom left, #515bd4, #dd2a7b, #feda77);
 }
 
 .animasi4 {
