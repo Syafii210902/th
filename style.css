@@ -57,6 +57,7 @@
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
+    position: absolute;
 }
 
 .desc h2 {
@@ -69,6 +70,15 @@
 .desc .tooltip {
     font-size: 24px;
     letter-spacing: 5px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    z-index: 100;
 }
 
 @media (max-width: 400px) {
