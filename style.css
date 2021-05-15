@@ -74,11 +74,12 @@
 
 .bottom {
     position: absolute;
-    bottom: 0;
+    bottom: 50px;
     text-align: center;
     color: #fff;
     font-size: 24px;
     z-index: 100;
+    letter-spacing: 3px;
 }
 
 @media (max-width: 400px) {
