@@ -1,0 +1,405 @@
+Microsoft Windows [Version 10.0.18362.720]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\user>D:
+
+D:\>cd PENS
+
+D:\PENS>cd Gift
+
+D:\PENS\Gift>heroku login
+heroku: Press any key to open up the browser to login or q to exit:
+Opening browser to https://cli-auth.heroku.com/auth/cli/browser/75611618-bd35-4db9-97f4-acc56a264cf3
+Logging in... done
+Logged in as siimam398@gmail.com
+
+D:\PENS\Gift>git init
+Initialized empty Git repository in D:/PENS/Gift/.git/
+
+D:\PENS\Gift>git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+D:\PENS\Gift>git add .
+
+D:\PENS\Gift>git commit -m "My site ready for deployment."
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'user@DESKTOP-GMEJ1CT.(none)')
+
+D:\PENS\Gift> heroku login
+heroku: Press any key to open up the browser to login or q to exit:
+Opening browser to https://cli-auth.heroku.com/auth/cli/browser/9233fbe1-24b7-4ece-afcb-32724fa0338c
+Logging in... done
+Logged in as siimam398@gmail.com
+
+D:\PENS\Gift>git commit -m "My site ready for deployment."
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'user@DESKTOP-GMEJ1CT.(none)')
+
+D:\PENS\Gift>heroku git:remote -a "for-you-from-me"
+set git remote heroku to https://git.heroku.com/for-you-from-me.git
+
+D:\PENS\Gift>git commit -am "initial commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'user@DESKTOP-GMEJ1CT.(none)')
+
+D:\PENS\Gift>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+        new file:   kenanganmanis.mp3
+        new file:   style.css
+
+
+D:\PENS\Gift>git add .
+
+D:\PENS\Gift>git commit -am "make it better"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'user@DESKTOP-GMEJ1CT.(none)')
+
+D:\PENS\Gift>git config --global user.email "siimam398@gmail.com"
+
+D:\PENS\Gift>git commit -am "make it better"
+[master (root-commit) 0fe8952] make it better
+ 3 files changed, 219 insertions(+)
+ create mode 100644 index.html
+ create mode 100644 kenanganmanis.mp3
+ create mode 100644 style.css
+
+D:\PENS\Gift>git push heroku master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 4.72 MiB | 807.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: Compressing source files... done.
+remote: Building source:
+remote:
+remote:  !     No default language could be detected for this app.
+remote:                         HINT: This occurs when Heroku cannot detect the buildpack to use for this application automatically.
+remote:                         See https://devcenter.heroku.com/articles/buildpacks
+remote:
+remote:  !     Push failed
+remote: Verifying deploy...
+remote:
+remote: !       Push rejected to for-you-from-me.
+remote:
+To https://git.heroku.com/for-you-from-me.git
+ ! [remote rejected] master -> master (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/for-you-from-me.git'
+
+D:\PENS\Gift>heroku open -a for-you-from-me
+
+D:\PENS\Gift>git commit -am "make it better"
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.php
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\PENS\Gift>git add index.php
+
+D:\PENS\Gift>git commit -am "make it better"
+[master 171cd77] make it better
+ 1 file changed, 1 insertion(+)
+ create mode 100644 index.php
+
+D:\PENS\Gift>git push heroku master
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 4.72 MiB | 1.12 MiB/s, done.
+Total 8 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Compressing source files... done.
+remote: Building source:
+remote:
+remote: -----> PHP app detected
+remote:
+remote:  !     WARNING: No 'composer.json' found!
+remote:  !
+remote:  !     Your project only contains an 'index.php', no 'composer.json'.
+remote:  !
+remote:  !     Using 'index.php' to declare app type as PHP is deprecated and
+remote:  !     may lead to unexpected behavior.
+remote:  !
+remote:  !     Please consider updating your codebase to utilize Composer and
+remote:  !     modern dependency management in order to benefit from the latest
+remote:  !     PHP runtimes and improved application performance, as well as
+remote:  !     control over the PHP versions and extensions available.
+remote:  !
+remote:  !     For an introduction to dependency management with Composer and
+remote:  !     how to get the most out of PHP on Heroku, refer to the docs at
+remote:  !     https://getcomposer.org/doc/00-intro.md and
+remote:  !     https://devcenter.heroku.com/articles/getting-started-with-php
+remote:
+remote: -----> Bootstrapping...
+remote: -----> Installing platform packages...
+remote:        NOTICE: No runtime required in composer.lock; using PHP ^7.0.0
+remote:        - apache (2.4.41)
+remote:        - nginx (1.16.1)
+remote:        - php (7.4.4)
+remote: -----> Installing dependencies...
+remote:        Composer version 1.10.1 2020-03-13 20:34:27
+remote: -----> Preparing runtime environment...
+remote:        NOTICE: No Procfile, using 'web: heroku-php-apache2'.
+remote: -----> Checking for additional extensions to install...
+remote: -----> Discovering process types
+remote:        Procfile declares types -> web
+remote:
+remote: -----> Compressing...
+remote:        Done: 18.8M
+remote: -----> Launching...
+remote:        Released v3
+remote:        https://for-you-from-me.herokuapp.com/ deployed to Heroku
+remote:
+remote: Verifying deploy... done.
+To https://git.heroku.com/for-you-from-me.git
+ * [new branch]      master -> master
+
+D:\PENS\Gift> heroku open -a for-you-from-me
+
+D:\PENS\Gift>git add index.html
+
+D:\PENS\Gift>git commit -am "make it better"
+[master 4e1385d] make it better
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+D:\PENS\Gift>heroku open -a for-you-from-me
+
+D:\PENS\Gift>add index.html
+'add' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\PENS\Gift>git add index.html
+
+D:\PENS\Gift>git commit -am "make it better"
+On branch master
+nothing to commit, working tree clean
+
+D:\PENS\Gift>git push heroku master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 403 bytes | 403.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Compressing source files... done.
+remote: Building source:
+remote:
+remote: -----> PHP app detected
+remote:
+remote:  !     WARNING: No 'composer.json' found!
+remote:  !
+remote:  !     Your project only contains an 'index.php', no 'composer.json'.
+remote:  !
+remote:  !     Using 'index.php' to declare app type as PHP is deprecated and
+remote:  !     may lead to unexpected behavior.
+remote:  !
+remote:  !     Please consider updating your codebase to utilize Composer and
+remote:  !     modern dependency management in order to benefit from the latest
+remote:  !     PHP runtimes and improved application performance, as well as
+remote:  !     control over the PHP versions and extensions available.
+remote:  !
+remote:  !     For an introduction to dependency management with Composer and
+remote:  !     how to get the most out of PHP on Heroku, refer to the docs at
+remote:  !     https://getcomposer.org/doc/00-intro.md and
+remote:  !     https://devcenter.heroku.com/articles/getting-started-with-php
+remote:
+remote: -----> Bootstrapping...
+remote: -----> Installing platform packages...
+remote:        NOTICE: No runtime required in composer.lock; using PHP ^7.0.0
+remote:        - apache (2.4.41)
+remote:        - nginx (1.16.1)
+remote:        - php (7.4.4)
+remote: -----> Installing dependencies...
+remote:        Composer version 1.10.1 2020-03-13 20:34:27
+remote: -----> Preparing runtime environment...
+remote:        NOTICE: No Procfile, using 'web: heroku-php-apache2'.
+remote: -----> Checking for additional extensions to install...
+remote: -----> Discovering process types
+remote:        Procfile declares types -> web
+remote:
+remote: -----> Compressing...
+remote:        Done: 18.8M
+remote: -----> Launching...
+remote:        Released v4
+remote:        https://for-you-from-me.herokuapp.com/ deployed to Heroku
+remote:
+remote: Verifying deploy... done.
+To https://git.heroku.com/for-you-from-me.git
+   171cd77..4e1385d  master -> master
+
+D:\PENS\Gift>heroku open -a for-you-from-me
+
+D:\PENS\Gift>git add index.html
+
+D:\PENS\Gift>git commit -am "make it better"
+[master 0a8a5f5] make it better
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+D:\PENS\Gift>git push heroku master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 392 bytes | 392.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Compressing source files... done.
+remote: Building source:
+remote:
+remote: -----> PHP app detected
+remote:
+remote:  !     WARNING: No 'composer.json' found!
+remote:  !
+remote:  !     Your project only contains an 'index.php', no 'composer.json'.
+remote:  !
+remote:  !     Using 'index.php' to declare app type as PHP is deprecated and
+remote:  !     may lead to unexpected behavior.
+remote:  !
+remote:  !     Please consider updating your codebase to utilize Composer and
+remote:  !     modern dependency management in order to benefit from the latest
+remote:  !     PHP runtimes and improved application performance, as well as
+remote:  !     control over the PHP versions and extensions available.
+remote:  !
+remote:  !     For an introduction to dependency management with Composer and
+remote:  !     how to get the most out of PHP on Heroku, refer to the docs at
+remote:  !     https://getcomposer.org/doc/00-intro.md and
+remote:  !     https://devcenter.heroku.com/articles/getting-started-with-php
+remote:
+remote: -----> Bootstrapping...
+remote: -----> Installing platform packages...
+remote:        NOTICE: No runtime required in composer.lock; using PHP ^7.0.0
+remote:        - apache (2.4.41)
+remote:        - nginx (1.16.1)
+remote:        - php (7.4.4)
+remote: -----> Installing dependencies...
+remote:        Composer version 1.10.1 2020-03-13 20:34:27
+remote: -----> Preparing runtime environment...
+remote:        NOTICE: No Procfile, using 'web: heroku-php-apache2'.
+remote: -----> Checking for additional extensions to install...
+remote: -----> Discovering process types
+remote:        Procfile declares types -> web
+remote:
+remote: -----> Compressing...
+remote:        Done: 18.7M
+remote: -----> Launching...
+remote:        Released v5
+remote:        https://for-you-from-me.herokuapp.com/ deployed to Heroku
+remote:
+remote: Verifying deploy... done.
+To https://git.heroku.com/for-you-from-me.git
+   4e1385d..0a8a5f5  master -> master
+
+D:\PENS\Gift> heroku open -a for-you-from-me
+
+D:\PENS\Gift>git add index.html
+
+D:\PENS\Gift>git commit -am "make it better"
+[master 99c8e5b] make it better
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+D:\PENS\Gift>git push heroku master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 382 bytes | 191.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Compressing source files... done.
+remote: Building source:
+remote:
+remote: -----> PHP app detected
+remote:
+remote:  !     WARNING: No 'composer.json' found!
+remote:  !
+remote:  !     Your project only contains an 'index.php', no 'composer.json'.
+remote:  !
+remote:  !     Using 'index.php' to declare app type as PHP is deprecated and
+remote:  !     may lead to unexpected behavior.
+remote:  !
+remote:  !     Please consider updating your codebase to utilize Composer and
+remote:  !     modern dependency management in order to benefit from the latest
+remote:  !     PHP runtimes and improved application performance, as well as
+remote:  !     control over the PHP versions and extensions available.
+remote:  !
+remote:  !     For an introduction to dependency management with Composer and
+remote:  !     how to get the most out of PHP on Heroku, refer to the docs at
+remote:  !     https://getcomposer.org/doc/00-intro.md and
+remote:  !     https://devcenter.heroku.com/articles/getting-started-with-php
+remote:
+remote: -----> Bootstrapping...
+remote: -----> Installing platform packages...
+remote:        NOTICE: No runtime required in composer.lock; using PHP ^7.0.0
+remote:        - apache (2.4.41)
+remote:        - nginx (1.16.1)
+remote:        - php (7.4.4)
+remote: -----> Installing dependencies...
+remote:        Composer version 1.10.1 2020-03-13 20:34:27
+remote: -----> Preparing runtime environment...
+remote:        NOTICE: No Procfile, using 'web: heroku-php-apache2'.
+remote: -----> Checking for additional extensions to install...
+remote: -----> Discovering process types
+remote:        Procfile declares types -> web
+remote:
+remote: -----> Compressing...
+remote:        Done: 18.8M
+remote: -----> Launching...
+remote:        Released v6
+remote:        https://for-you-from-me.herokuapp.com/ deployed to Heroku
+remote:
+remote: Verifying deploy... done.
+To https://git.heroku.com/for-you-from-me.git
+   0a8a5f5..99c8e5b  master -> master
+
+D:\PENS\Gift>heroku open -a for-you-from-me
+
+D:\PENS\Gift>
